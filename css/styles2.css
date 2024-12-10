@@ -1,0 +1,124 @@
+/* Estilo para el contenedor de usuarios */
+.containerUsuarios {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 80px;
+}
+
+/* Estilo específico para la tabla de usuarios */
+.tableUsuarios {
+    width: 50%;
+    margin: 30px;
+}
+
+.tableUsuarios table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+/* Títulos de columnas centrados para la tabla de usuarios */
+.tableUsuarios th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #00034d;
+    color: white;
+}
+
+/* Estilos específicos para las celdas de la tabla de usuarios */
+.tableUsuarios th:first-child,
+.tableUsuarios td:first-child {
+    text-align: center;
+}
+
+.tableUsuarios th,
+.tableUsuarios td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Botón para convertir usuario a administrador */
+.convert-button {
+    background-color: #00034d;
+    padding: 8px 12px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.convert-button:hover {
+    background-color: #1f24b1;
+}
+
+/* Centrando las celdas y el botón en la tabla de usuarios */
+.tableUsuarios .centered {
+    text-align: center;
+    align-items: center;
+}
+
+/* Estilo para el título dentro de la tabla de usuarios */
+.tableUsuarios .table-title {
+    background-color: #00034d;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+}
+
+
+/* Estilo para el contenedor de administradores */
+.containerAdmins {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 80px;
+}
+
+/* Estilo específico para la tabla de administradores */
+.tableAdmins {
+    width: 50%;
+    margin: 30px;
+}
+
+.tableAdmins table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+/* Títulos de columnas centrados para la tabla de administradores */
+.tableAdmins th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #00034d;
+    color: white;
+}
+
+/* Estilos específicos para las celdas de la tabla de administradores */
+.tableAdmins th:first-child,
+.tableAdmins td:first-child {
+    text-align: center;
+}
+
+.tableAdmins th,
+.tableAdmins td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estilo para el título dentro de la tabla de administradores */
+.tableAdmins .table-title {
+    background-color: #00034d;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+}
